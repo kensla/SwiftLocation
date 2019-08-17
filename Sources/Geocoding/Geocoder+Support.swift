@@ -58,6 +58,10 @@ public extension GeocoderRequest {
         /// Specify nil to use the user's default locale information. It's valid only if you are using apple services.
         public var locale: String?
         
+        public init() {
+            
+        }
+        
         /// Return all the servicer params as query items.
         ///
         /// - Returns: [URLQueryItem]
